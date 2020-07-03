@@ -7,6 +7,18 @@
     <groupId>org.seb19</groupId>
     <artifactId>CICD-Demo</artifactId>
     <version>0.0.1</version>
+    <properties>
+        <maven.compiler.source>1.9</maven.compiler.source>
+        <maven.compiler.target>1.9</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
