@@ -20,7 +20,7 @@ public class Arithmetic {
 
     public float pow(float a, float b) {
         int n = 1;
-        for (int i = 1; i < b; i++) {
+        for (int i = 0; i < b; i++) {
             n *= a;
         }
         return n;
