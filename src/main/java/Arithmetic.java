@@ -17,4 +17,12 @@ public class Arithmetic {
         }
         return a/b;
     }
+
+    public float pow(float a, float b) {
+        int n = 1;
+        for (int i = 1; i < b; i++) {
+            n *= a;
+        }
+        return n;
+    }
 }
