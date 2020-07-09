@@ -30,4 +30,11 @@ public class ArithmeticTest {
             fail(e.getMessage());
         }
     }
+
+    /*
+    @Test
+    public void powTest() {
+        assertEquals(1024f, arithmetic.pow(4, 5), 0);
+    }
+    */
 }
