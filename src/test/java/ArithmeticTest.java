@@ -31,10 +31,8 @@ public class ArithmeticTest {
         }
     }
 
-    /*
     @Test
     public void powTest() {
         assertEquals(1024f, arithmetic.pow(4, 5), 0);
     }
-    */
 }
