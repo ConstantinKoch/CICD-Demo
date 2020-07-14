@@ -35,4 +35,9 @@ public class ArithmeticTest {
     public void powTest() {
         assertEquals(1024f, arithmetic.pow(4, 5), 0);
     }
+
+    @Test
+    public void rootTest() {
+        assertEquals(3, arithmetic.root(9,2), 0);
+    }
 }

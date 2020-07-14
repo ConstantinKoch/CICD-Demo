@@ -25,4 +25,8 @@ public class Arithmetic {
         }
         return n;
     }
+
+    public float root(float a, float b) {
+        return (float) Math.pow(a, 2/b);
+    }
 }
