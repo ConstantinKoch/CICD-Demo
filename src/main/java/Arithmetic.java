@@ -27,6 +27,6 @@ public class Arithmetic {
     }
 
     public float root(float a, float b) {
-        return (float) Math.pow(a, 2/b);
+        return (float) Math.pow(a, 1/b);
     }
 }
